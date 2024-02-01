@@ -53,3 +53,4 @@
         this.y += Math.sin(this.x * this.frequency + this.phase) * 5;
 
         if (this.x < 0 || this.x > canvas.width) {
+          this.speedX *= -1;
